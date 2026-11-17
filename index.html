@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Responsive clothing landing page" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive clothing ecommerce - Bedimcode</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo1.png" alt="Logo" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">New</a>
+            </li>
+            <li class="nav__item">
+              <a href="#collection" class="nav__link">Collection</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#brand" class="nav__link">Brands</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">×</div>
+        </div>
+
+        <div class="nav__btns">
+          <button class="theme__button" id="theme-button" aria-label="Toggle theme">
+            <span class="theme__icon">☀️</span>
+          </button>
+          <div class="nav__toggle" id="nav-toggle">☰</div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__subtitle">New collection</span>
+            <h1 class="home__title">New Clothing <br /> Collection</h1>
+            <p class="home__description">
+              The new collection of clothing from <br />
+              the best brands this year.
+            </p>
+            <a href="#new" class="button button--primary">Explore</a>
+          </div>
+
+          <div class="home__images">
+            <img src="assets/img/home1.png" alt="Clothing item" class="home__img" />
+            <img src="assets/img/home2.png" alt="Model" class="home__img home__img--small" />
+          </div>
+        </div>
+      </section>
+
+      <section class="new section" id="new">
+        <div class="container">
+          <h2 class="section__title">New Categories</h2>
+
+          <div class="new__container grid">
+            <article class="new__card">
+              <img src="assets/img/new1.png" alt="Hoodie and sweatshirt" class="new__img" />
+              <div class="new__data">
+                <h3 class="new__title">Hoodie &amp; Sweatshirt</h3>
+                <span class="new__subtitle">Winter collection</span>
+              </div>
+            </article>
+
+            <article class="new__card">
+              <img src="assets/img/new2.png" alt="Pants and jackets" class="new__img" />
+              <div class="new__data">
+                <h3 class="new__title">Pants &amp; Jackets</h3>
+                <span class="new__subtitle">Winter collection</span>
+              </div>
+            </article>
+
+            <article class="new__card">
+              <img src="assets/img/new3.png" alt="Coats and coat sets" class="new__img" />
+              <div class="new__data">
+                <h3 class="new__title">Coats &amp; Coat Sets</h3>
+                <span class="new__subtitle">Winter collection</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection section" id="collection">
+        <div class="container">
+          <div class="collection__container grid">
+            <article class="collection__card collection__card--men">
+              <div class="collection__data">
+                <h2 class="collection__title">Men <br /> Collection</h2>
+                <a href="#" class="button button--secondary">Explore Clothes</a>
+              </div>
+              <img src="assets/img/collection1.png" alt="Men collection" class="collection__img" />
+            </article>
+
+            <article class="collection__card collection__card--women">
+              <div class="collection__data">
+                <h2 class="collection__title">Women <br /> Collection</h2>
+                <a href="#" class="button button--secondary">Explore Clothes</a>
+              </div>
+              <img src="assets/img/collection2.png" alt="Women collection" class="collection__img" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="products section" id="products">
+        <div class="container">
+          <h2 class="section__title">Best Products</h2>
+
+          <div class="products__container grid">
+            <article class="product__card">
+              <img src="assets/img/product1.png" alt="Gotland black jacket" class="product__img" />
+              <div class="product__content">
+                <h3 class="product__title">Gotland black Jacket</h3>
+                <div class="product__rating">★★★★★</div>
+                <div class="product__footer">
+                  <span class="product__price">$124.99</span>
+                  <button class="product__button" type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product__card">
+              <img src="assets/img/product2.png" alt="Black sports shorts" class="product__img" />
+              <div class="product__content">
+                <h3 class="product__title">Black Sports Shorts</h3>
+                <div class="product__rating">★★★★★</div>
+                <div class="product__footer">
+                  <span class="product__price">$34.99</span>
+                  <button class="product__button" type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product__card">
+              <img src="assets/img/product3.png" alt="Knox quilted jacket" class="product__img" />
+              <div class="product__content">
+                <h3 class="product__title">Knox Quilted Jacket</h3>
+                <div class="product__rating">★★★★★</div>
+                <div class="product__footer">
+                  <span class="product__price">$97.99</span>
+                  <button class="product__button" type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product__card">
+              <img src="assets/img/product4.png" alt="Blue sport pants" class="product__img" />
+              <div class="product__content">
+                <h3 class="product__title">Blue Sport Pants</h3>
+                <div class="product__rating">★★★★★</div>
+                <div class="product__footer">
+                  <span class="product__price">$69.99</span>
+                  <button class="product__button" type="button">Add</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="brand section" id="brand">
+        <div class="container">
+          <h2 class="section__title">Brands We Sell</h2>
+          <div class="brands__container grid">
+            <img src="assets/img/logo1.png" alt="Brand 1" class="brands__img" />
+            <img src="assets/img/logo2.png" alt="Brand 2" class="brands__img" />
+            <img src="assets/img/logo3.png" alt="Brand 3" class="brands__img" />
+            <img src="assets/img/logo4.png" alt="Brand 4" class="brands__img" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <img src="assets/img/logo1.png" alt="Footer logo" />
+          </a>
+          <p class="footer__description">
+            Committed to bringing you the <br />
+            best clothing from popular <br />
+            brands.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Company</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Blog</a></li>
+            <li><a href="#" class="footer__link">Events</a></li>
+            <li><a href="#" class="footer__link">Popular news</a></li>
+            <li><a href="#" class="footer__link">Recent news</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Shop</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Office</a></li>
+            <li><a href="#" class="footer__link">New arrivals</a></li>
+            <li><a href="#" class="footer__link">Accessories</a></li>
+            <li><a href="#" class="footer__link">Sale</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Contact info</h3>
+          <ul class="footer__links">
+            <li><span class="footer__info">Monday - Saturday <br />9AM - 10PM</span></li>
+            <li><a href="mailto:hello@bedimcode.com" class="footer__link">Contact us</a></li>
+          </ul>
+
+          <div class="footer__social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" class="footer__social-link">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" class="footer__social-link">Instagram</a>
+            <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" rel="noreferrer" class="footer__social-link">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom container">
+        <p class="footer__copy">&copy; Bedimcode. All rights reserved</p>
+        <a href="#" class="footer__privacy">Terms &amp; Conditions</a>
+      </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up" aria-label="Scroll up">↑</a>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
